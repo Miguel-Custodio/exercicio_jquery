@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(241, 238, 238, 0.459);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-color: lightgray;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: rgba(241, 238, 238, 0.459);
+    border-color: lightgray;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    list-style: none;
+    padding: 0;
+}
+
+.riscar-frase {
+    cursor: pointer;
+    text-decoration: line-through;
+}
